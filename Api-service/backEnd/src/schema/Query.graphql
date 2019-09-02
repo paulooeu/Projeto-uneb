@@ -1,0 +1,7 @@
+type Query {
+  usuaioFindAll: [Usuario]
+  usuarioFind(filtro: UsuarioFiltro!): Usuario
+
+  projetoFindAll: [Projeto]
+  projetoFind(filtro: ProjetoFiltro!): Projeto
+}

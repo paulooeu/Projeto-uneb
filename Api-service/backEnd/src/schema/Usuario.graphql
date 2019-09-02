@@ -1,0 +1,18 @@
+type Usuario {
+  id: Int
+  nome: String!
+  email: String!
+   senha: String!
+  projetos: [Projeto]
+}
+
+input UsuarioInput {
+  nome: String!
+  email: String!
+  senha: String!
+}
+
+input UsuarioFiltro {
+  id: Int
+  email: String
+}

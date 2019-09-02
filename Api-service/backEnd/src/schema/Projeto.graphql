@@ -1,0 +1,15 @@
+type Projeto {
+  id: Int
+  nome: String!
+  usuarios: [Usuario]
+}
+
+input ProjetoInput {
+  nome: String
+  usuarios: [UsuarioFiltro]
+}
+
+input ProjetoFiltro {
+  id: Int
+  nome: String
+}

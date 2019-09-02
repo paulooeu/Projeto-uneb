@@ -1,0 +1,5 @@
+type Mutation {
+  createUsuario(dados: UsuarioInput!): Usuario!
+
+  createProjeto(dados: ProjetoInput!): Projeto!
+}

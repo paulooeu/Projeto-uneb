@@ -1,0 +1,46 @@
+{
+  "name": "frontend-graphql",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.4.0",
+    "@material-ui/icons": "^4.2.1",
+    "@rocketseat/unform": "^1.5.1",
+    "apollo-boost": "^0.4.4",
+    "bootstrap": "^4.3.1",
+    "graphql": "^14.5.4",
+    "graphql-tag": "^2.10.1",
+    "material-table": "^1.50.0",
+    "mui-datatables": "^2.10.0",
+    "polished": "^3.4.1",
+    "react": "^16.9.0",
+    "react-apollo": "^3.0.1",
+    "react-dom": "^16.9.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.1.1",
+    "reactstrap": "^8.0.1",
+    "semantic-ui-react": "^0.88.0",
+    "styled-components": "^4.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
