@@ -9,8 +9,8 @@ class ProjetoController {
   async create({ request, response, view }) {}
 
   async store({ request, response }) {
-    console.log("ddsdsds");
-    const data = request.only(["titulo", "descricao", "usuario_id"]);
+
+    const data = request.only(["titulo", "descricao", "email"]);
     const projeto = await Projeto.create(data);
     return projeto;
   }

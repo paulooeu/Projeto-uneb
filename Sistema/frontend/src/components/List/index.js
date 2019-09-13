@@ -14,7 +14,6 @@ const useStyles = makeStyles(theme => ({
 
 export default function AlignItemsList({ projetos }) {
   const classes = useStyles();
-  console.log(projetos);
   return (
     <List className={classes.root}>
       {projetos.map(projeto => (

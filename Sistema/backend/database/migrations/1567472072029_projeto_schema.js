@@ -9,7 +9,7 @@ class ProjetoSchema extends Schema {
       table.increments();
       table.string("titulo").notNullable();
       table.string("descricao").notNullable();
-      table.string("usuario_id").notNullable();
+      table.string("email").notNullable();
 
       table.timestamps();
     });

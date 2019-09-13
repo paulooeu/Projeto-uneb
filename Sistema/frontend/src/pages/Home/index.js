@@ -7,19 +7,19 @@ import List from "../../components/List";
 export default function Home() {
   const [projetos, setProjetos] = useState([
     {
-      titulo: "Projeto 1",
-      usuario: "Paulo Sergio",
-      descricao: " " + "Esse projeto é para encher o saco"
+      titulo: "Projeto pedir aumento ao chefe",
+      usuario: "Paulo",
+      descricao: " " + "Esse projeto serve para pedir aumento ao chefe"
     },
     {
-      titulo: "Projeto 2",
-      usuario: "Paulo Sergio",
-      descricao: " " + "Esse projeto é para encher o saco"
+      titulo: "Projeto pedir aumento para Paulo",
+      usuario: "Iury",
+      descricao: " " + "Esse projeto serve para pedir aumento a ZCR para Paulo"
     },
     {
-      titulo: "Projeto 3",
-      usuario: "Paulo Sergio",
-      descricao: " " + "Esse projeto é para encher o saco"
+      titulo: "Projeto negar aumento a Paulo",
+      usuario: "ZRC",
+      descricao: " " + "Esse projeto serve para negar o aumento para Paulo, porque ele é um merda"
     }
   ]);
   return (
